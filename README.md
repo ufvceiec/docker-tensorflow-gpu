@@ -91,3 +91,14 @@ To enter and execute your code inside the container, the following command will 
 ```
 docker exec -it fernando_tensorflow_1 /bin/bash
 ```
+
+### Export and import an image
+Once the image is built, you can export it using the followin command:
+```
+docker save -o image.tar fernando_tensorflow
+```
+
+If you want to import the exported image, use this command:
+```
+docker load image.tar
+```
