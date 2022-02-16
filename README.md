@@ -100,5 +100,5 @@ docker save -o image.tar fernando_tensorflow
 
 If you want to import the exported image, use this command:
 ```
-docker load image.tar
+docker load -i image.tar
 ```
