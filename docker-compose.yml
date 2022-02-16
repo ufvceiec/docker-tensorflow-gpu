@@ -1,8 +1,9 @@
-version: "2.3"
+version: "3.8"
 
 services:
   tensorflow:
     build: .
+    container_name: my.image.name:latest
     stdin_open: true
     tty: true
     network_mode: bridge

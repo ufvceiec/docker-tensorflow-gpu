@@ -70,7 +70,7 @@ It is not recommended to indicate the version due to possible conflicts.
 ### Create the image
 The following commands will be launched being inside the path where the necessary files are found.
 
-Once your project is set up, the image to be used will be created. To do this, the following command is executed:
+Once your project is set up, the image to be used will be created. To do this, it is necessary to change the `container_name` tag in the docker compose file to rename the image (for example: fernando_tensorflow:latest). Then, the following command is executed:
 ```
 docker-compose up
 ```
@@ -100,5 +100,5 @@ docker save -o image.tar fernando_tensorflow
 
 If you want to import the exported image, use this command:
 ```
-docker load image.tar
+docker load -i image.tar
 ```
