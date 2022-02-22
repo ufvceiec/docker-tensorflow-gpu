@@ -28,6 +28,9 @@ The advantages of using Docker instead of using the machine directly are:
 8. Much simpler when executing, with a simple command you have the program running.
 9. It is more difficult for the computer to crash, if a problem ocurrurs, it is the container itself who stops its execution, preventing the rest of the containers to be affected.
 
+## Ubuntu-threadReaper Instalation
+On grub edit ubuntu boot options, and add at the end of linux line: `nomodeset acpi=off noapic`.
+
 ## Installation
 Note that the Docker installation must be done on the host machine using the steps taken from the [NVIDIA official website](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 
