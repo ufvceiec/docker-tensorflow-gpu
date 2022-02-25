@@ -52,7 +52,6 @@ Once Docker is installed and you want to start executing your program in a conta
 folder
 ├── Dockerfile
 ├── docker-compose.yml
-├── docker-compose.yml
 ├── requirements.txt
 └── ···
 ```
